@@ -22,6 +22,7 @@ public class BookDao {
 		int count = pstmt.executeUpdate();
 		
 		con.close();
+		System.out.println("JDBC APPLICATION");
 		
 		return count > 0 ;
 		

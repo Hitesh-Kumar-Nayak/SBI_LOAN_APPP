@@ -23,7 +23,8 @@ public class BookServlet extends HttpServlet {
 			
 			int bookId = Integer.parseInt(id);
 			double bookPrice = Double.parseDouble(price);
-			
+			int a=20'
+			int b=30;
 			
 			BookDao dao = new BookDao();
 			boolean status = dao.saveBook(bookId, name,bookPrice);

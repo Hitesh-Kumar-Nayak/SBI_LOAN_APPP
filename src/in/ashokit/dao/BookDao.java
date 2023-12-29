@@ -18,7 +18,7 @@ public class BookDao {
 		pstmt.setInt(1, bookId);
 		pstmt.setString(2, bookName);
 		pstmt.setDouble(3, price);
-		String ="HITESH";
+		
 		int count = pstmt.executeUpdate();
 		
 		con.close();
